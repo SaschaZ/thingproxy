@@ -25,5 +25,5 @@ module.exports = {
 		'api.coinex.com',
 		'api.liquid.com',
 	].join('|')})$`),
-	blacklist_hostname_regex: /^(10\.|192\.|127\.|localhost$)/i, // Good for limiting access to internal IP addresses and hosts.
+	// blacklist_hostname_regex: /^(10\.|192\.|127\.|localhost$)/i, // Good for limiting access to internal IP addresses and hosts.
 };
