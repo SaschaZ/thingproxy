@@ -214,7 +214,7 @@ function doProxyRequest(req, mainResponse) {
 const server = http.createServer(function(req, res) {
 	addCORSHeaders(req, res);
 
-	METRICS.req_per_min.mark();
+	//METRICS.req_per_min.mark();
 
 	const now = +new Date();
 
